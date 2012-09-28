@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBCE0AFC156689260020CCD3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCE0AFB156689260020CCD3 /* Cocoa.framework */; };
+		CBCE0B06156689260020CCD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBCE0B04156689260020CCD3 /* InfoPlist.strings */; };
+		CBCE0B08156689260020CCD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE0B07156689260020CCD3 /* main.m */; };
+		CBCE0B0C156689260020CCD3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CBCE0B0A156689260020CCD3 /* Credits.rtf */; };
+		CBCE0B0F156689260020CCD3 /* LIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE0B0E156689260020CCD3 /* LIAppDelegate.m */; };
+		CBCE0B12156689260020CCD3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBCE0B10156689260020CCD3 /* MainMenu.xib */; };
+		CBCE0B1E156689B00020CCD3 /* VELoginItemsController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCE0B1D156689B00020CCD3 /* VELoginItemsController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CBCE0AF7156689260020CCD3 /* Login Item.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login Item.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCE0AFB156689260020CCD3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CBCE0AFE156689260020CCD3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CBCE0AFF156689260020CCD3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CBCE0B00156689260020CCD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBCE0B03156689260020CCD3 /* Login Item-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Login Item-Info.plist"; sourceTree = "<group>"; };
+		CBCE0B05156689260020CCD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBCE0B07156689260020CCD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBCE0B09156689260020CCD3 /* Login Item-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Login Item-Prefix.pch"; sourceTree = "<group>"; };
+		CBCE0B0B156689260020CCD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CBCE0B0D156689260020CCD3 /* LIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIAppDelegate.h; sourceTree = "<group>"; };
+		CBCE0B0E156689260020CCD3 /* LIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIAppDelegate.m; sourceTree = "<group>"; };
+		CBCE0B11156689260020CCD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CBCE0B1C156689B00020CCD3 /* VELoginItemsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VELoginItemsController.h; sourceTree = "<group>"; };
+		CBCE0B1D156689B00020CCD3 /* VELoginItemsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VELoginItemsController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBCE0AF4156689260020CCD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCE0AFC156689260020CCD3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBCE0AEC156689250020CCD3 = {
+			isa = PBXGroup;
+			children = (
+				CBCE0B01156689260020CCD3 /* Login Item */,
+				CBCE0AFA156689260020CCD3 /* Frameworks */,
+				CBCE0AF8156689260020CCD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBCE0AF8156689260020CCD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE0AF7156689260020CCD3 /* Login Item.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBCE0AFA156689260020CCD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE0AFB156689260020CCD3 /* Cocoa.framework */,
+				CBCE0AFD156689260020CCD3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBCE0AFD156689260020CCD3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE0AFE156689260020CCD3 /* AppKit.framework */,
+				CBCE0AFF156689260020CCD3 /* CoreData.framework */,
+				CBCE0B00156689260020CCD3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CBCE0B01156689260020CCD3 /* Login Item */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE0B1C156689B00020CCD3 /* VELoginItemsController.h */,
+				CBCE0B1D156689B00020CCD3 /* VELoginItemsController.m */,
+				CBCE0B0D156689260020CCD3 /* LIAppDelegate.h */,
+				CBCE0B0E156689260020CCD3 /* LIAppDelegate.m */,
+				CBCE0B10156689260020CCD3 /* MainMenu.xib */,
+				CBCE0B02156689260020CCD3 /* Supporting Files */,
+			);
+			path = "Login Item";
+			sourceTree = "<group>";
+		};
+		CBCE0B02156689260020CCD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE0B03156689260020CCD3 /* Login Item-Info.plist */,
+				CBCE0B04156689260020CCD3 /* InfoPlist.strings */,
+				CBCE0B07156689260020CCD3 /* main.m */,
+				CBCE0B09156689260020CCD3 /* Login Item-Prefix.pch */,
+				CBCE0B0A156689260020CCD3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBCE0AF6156689260020CCD3 /* Login Item */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCE0B15156689260020CCD3 /* Build configuration list for PBXNativeTarget "Login Item" */;
+			buildPhases = (
+				CBCE0AF3156689260020CCD3 /* Sources */,
+				CBCE0AF4156689260020CCD3 /* Frameworks */,
+				CBCE0AF5156689260020CCD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Login Item";
+			productName = "Login Item";
+			productReference = CBCE0AF7156689260020CCD3 /* Login Item.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBCE0AEE156689250020CCD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VE;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Voodoo Ergonomics Inc.";
+			};
+			buildConfigurationList = CBCE0AF1156689250020CCD3 /* Build configuration list for PBXProject "Login Item" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBCE0AEC156689250020CCD3;
+			productRefGroup = CBCE0AF8156689260020CCD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBCE0AF6156689260020CCD3 /* Login Item */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBCE0AF5156689260020CCD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCE0B06156689260020CCD3 /* InfoPlist.strings in Resources */,
+				CBCE0B0C156689260020CCD3 /* Credits.rtf in Resources */,
+				CBCE0B12156689260020CCD3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBCE0AF3156689260020CCD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCE0B08156689260020CCD3 /* main.m in Sources */,
+				CBCE0B0F156689260020CCD3 /* LIAppDelegate.m in Sources */,
+				CBCE0B1E156689B00020CCD3 /* VELoginItemsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBCE0B04156689260020CCD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCE0B05156689260020CCD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBCE0B0A156689260020CCD3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCE0B0B156689260020CCD3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CBCE0B10156689260020CCD3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCE0B11156689260020CCD3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBCE0B13156689260020CCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CBCE0B14156689260020CCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CBCE0B16156689260020CCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Login Item/Login Item-Prefix.pch";
+				INFOPLIST_FILE = "Login Item/Login Item-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBCE0B17156689260020CCD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Login Item/Login Item-Prefix.pch";
+				INFOPLIST_FILE = "Login Item/Login Item-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBCE0AF1156689250020CCD3 /* Build configuration list for PBXProject "Login Item" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCE0B13156689260020CCD3 /* Debug */,
+				CBCE0B14156689260020CCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCE0B15156689260020CCD3 /* Build configuration list for PBXNativeTarget "Login Item" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCE0B16156689260020CCD3 /* Debug */,
+				CBCE0B17156689260020CCD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBCE0AEE156689250020CCD3 /* Project object */;
+}
